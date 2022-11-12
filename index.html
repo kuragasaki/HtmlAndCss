@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Example EC Site</title>
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body class="ecommerce">
+    <header>
+      <!-- <div class="header_upper"> -->
+        <h1 class="header_upper">
+          <span class="h1_top">Example</span>
+          <br />
+          <span class="h1_buttom">EC Site</span>
+          <!-- Example EC Site -->
+        </h1>
+        <div class="search_form" >
+          <form action="./" >
+            <input  id="word_input" name="keyword" type="text"  placeholder="キーワードを入力" />
+            <button  id="sbtn2" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      <!-- </div> -->
+      <nav>
+        <ul>
+          <li>test1</li>
+          <li>test2</li>
+          <li>test3</li>
+          <li>test4</li>
+          <li>test5</li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <footer>
+      <h3>Example EC Site Company</h3>
+    </footer>
+
+    <!-- Load javascripts at bottom, this will reduce page load time -->
+    <!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.min.js"></script>  
+    <![endif]-->
+    <script src="assets/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>      
+    <script src="assets/corporate/scripts/back-to-top.js" type="text/javascript"></script>
+    <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+
+    <!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
+    <script src="assets/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script><!-- pop up -->
+    <script src="assets/plugins/owl.carousel/owl.carousel.min.js" type="text/javascript"></script><!-- slider for products -->
+    <script src='assets/plugins/zoom/jquery.zoom.min.js' type="text/javascript"></script><!-- product zoom -->
+    <script src="assets/plugins/bootstrap-touchspin/bootstrap.touchspin.js" type="text/javascript"></script><!-- Quantity -->
+
+    <script src="assets/corporate/scripts/layout.js" type="text/javascript"></script>
+    <script src="assets/pages/scripts/bs-carousel.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            Layout.init();    
+            Layout.initOWL();
+            Layout.initImageZoom();
+            Layout.initTouchspin();
+            Layout.initTwitter();
+        });
+    </script>
+  </body>
+</html>
