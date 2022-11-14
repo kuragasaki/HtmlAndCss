@@ -1,12 +1,14 @@
 ﻿@charset "utf-8";
 
 body {
-	width: 800px;
 	padding: 5%;
+	background-color: #bbb;
 }
 
-header {
+.site-header {
 	height: 150px;
+	width: 1000px;
+	position: fixed;
 }
 
 .header_upper {
@@ -31,7 +33,7 @@ h1 span {
 }
 
 .h1_buttom {
-	margin-right: 40px;
+	margin-right: 140px;
 }
 
 .search_form {
@@ -68,8 +70,18 @@ h1 span {
 
 .header_button {
 	width: 100px;
+	height: 30px;
+	border-radius: 1rem;
+	font-size: 16px;
+	color: #fff;
+	background: #f39800;
+
 }
 
+.header_button:hover {
+	color: #fff;
+	background: #ffa50e;
+  }
 
 nav {
 	height: 50px;
@@ -88,7 +100,7 @@ ul li {
 
 
 
-.test_btn-tag {
+.cart_btn-tag {
   line-height: 1.5;
   position: relative;
   display: inline-block;
@@ -103,41 +115,35 @@ ul li {
   text-decoration: none;
   color: #212529;
   border-radius: 1rem;
-  padding: 0.2rem 3rem 0.2rem 50px;
+  padding: 0.2rem 1rem 0.2rem 50px;
   color: #fff;
   background: #f39800;
 }
 
 
-.test_btn-tag:before {
+.cart_btn-tag:before {
 	position: absolute;
 	top: 0;
 	left: 0;
-  
-	width: 50px;
-	height: 100%;
-  
+	width: 40px;
+	height: 100%;  
 	content: "";
-  
 	border-radius: 0.5rem 0 0 0.5rem;
 	background: rgba(0, 0, 0, 0.07);
   }
   
-.test_btn-tag:hover {
+.cart_btn-tag:hover {
 	color: #fff;
 	background: #ffa50e;
   }
   
-.test_btn-tag i {
+.cart_btn-tag i {
 	font-size: 100%;
-  
 	position: absolute;
 	top: 0;
 	left: 0;
-  
-	width: 50px;
-	padding: 0.5rem 0;
-  
+	width: 40px;
+	padding: 0.5rem 0;  
 	text-align: center;
 	letter-spacing: 0;
 }
