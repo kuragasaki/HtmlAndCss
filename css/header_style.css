@@ -86,23 +86,23 @@ h1 span {
 }
 
 .cart_btn-tag {
-  line-height: 1.5;
-  position: relative;
-  display: inline-block;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  color: #212529;
-  border-radius: 1rem;
-  padding: 0.2rem 1rem 0.2rem 50px;
-  color: #fff;
-  background: #f39800;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #212529;
+    border-radius: 1rem;
+    padding: 0.2rem 1rem 0.2rem 50px;
+    color: #fff;
+    background: #f39800;
 }
 
 

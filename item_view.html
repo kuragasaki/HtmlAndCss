@@ -9,7 +9,6 @@
     <link href="./css/reset.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
     <link href="./css/header_style.css" rel="stylesheet">
-    <link href="./css/item_infos_style.css" rel="stylesheet">
   </head>
 
   <body>
@@ -184,91 +183,39 @@
     </header>
 
     <form action="./" >
-      <table id="itemInfosTbl">
-        <caption>Item Infos</caption>
-        <thead>
-          <tr class="header_background">
-            <th></th>
-            <th class="item_data">
-              Image
-            </th>
-            <th class="item_data">
-              Item Name
-            </th>
-            <th class="item_data">
-              Category Type
-            </th>
-            <th class="item_data">
-              price
-            </th>
-            <th class="item_data">
-              Release date
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td id="itemId">
-              <input type="checkbox" name="itemId" value="itemId" />
-            </td>
-            <td class="item_data">
-              <a href="">
-                <img src="" />
-                Item Image B
-              </a>
-            </td>
-            <td class="item_data">
-              <a href="">
-                Item Name B
-              </a>
-            </td>
-            <td class="item_data">
-              Category 1-1-2
-            </td>
-            <td class="item_data">
-              $100
-            </td>
-            <td class="item_data">
-              2022/01/01
-            </td>
-          </tr>
-          <tr class="data_background">
-            <td id="itemId">
-              <input type="checkbox" name="itemId" value="itemId" />
-            </td>
-            <td class="item_data">
-              <a href="">
-                <img src="" />
-                Item Image A
-              </a>
-            </td>
-            <td class="item_data">
-              <a href="">
-                Item Name A
-              </a>
-            </td>
-            <td class="item_data">
-              Category 1-1-1
-            </td>
-            <td class="item_data">
-              $100
-            </td>
-            <td class="item_data">
-              2022/01/01
-            </td>
-          </tr>
-        </tbody>
-        <tfoot>
-          <a href="">
-            ページングリンク
-          </a>
-        </tfoot>
-      </table>
-
-      <div>
-        <button type="submit"><i class="fas fa-shopping-cart"></i>Cartへ入れる</button>
-        <button type="submit">購入ページ</button>
-      </div>
+      <section>
+        <h2>
+          Item Name A
+        </h2>
+        <a href="">
+          <img src=""  class="" />
+        </a>
+        <dl>
+          <dt>
+            Category Type
+          </dt>
+          <dd>
+            Category 1-1-1
+          </dd>
+          <dt>
+            金額
+          </dt>
+          <dd>
+            buy sell $100
+          </dd>
+          <dt>
+            発売日
+          </dt>
+          <dd>
+            2022/01/01
+          </dd>
+        </dl>
+        <a href="">
+          詳細ページへ
+        </a>
+      </section>
+      <button id="sbtn2" type="submit"><i class="fas fa-shopping-cart"></i>Cartへ入れる</button>
+      <button id="sbtn2" type="submit">購入ページ</button>
     </form>
 
     <footer>
