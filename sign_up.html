@@ -9,7 +9,7 @@
     <link href="./css/reset.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
     <link href="./css/header_style.css" rel="stylesheet">
-    <link href="./css/item_style.css" rel="stylesheet">
+    <link href="./css/sing_up_style.css" rel="stylesheet">
     <link href="./css/footer_style.css" rel="stylesheet">
   </head>
 
@@ -60,46 +60,64 @@
       </nav>
     </header>
 
-    <div class="item_view_body">
+    <div id="user_infos">
       <section>
         <h2>
-          Item Name A
+          個人情報登録
         </h2>
-        <span class="img_position">
-          <img src=""  class="big_img" />
-        </span>
-        <dl>
-          <dt>
-          Category Type
-          </dt>
-          <dd>
-          Category 1-1-1
-          </dd>
-          <dt>
-          price
-          </dt>
-          <dd>
-          buy sell $100
-          </dd>
-          <dt>
-          Release date
-          </dt>
-          <dd>
-          2022/01/01
-          </dd>
-        </dl>
+        <form>
+          <dl>
+            <dt>
+              名前（姓）
+            </dt>
+            <dd>
+              <input type="text" name="lastName" value="" />
+            </dd>
+            <dt>
+              名前（名）
+            </dt>
+            <dd>
+              <input type="text" name="firstName" value="" />
+            </dd>            
+            <dt>
+              mail address
+            </dt>
+            <dd>
+              <input type="mail" name="mailAddress" value="" />
+            </dd>
+            <dt>
+              性別
+            </dt>
+            <dd>
+              <input type="radio" name="sex" value="1" />man
+              <input type="radio" name="sex" value="2" />woman
+            </dd>
+            <dt>
+              password
+            </dt>
+            <dd>
+              <input type="password" name="password" value="" />
+            </dd>
+            <dt>
+              Re-password
+            </dt>
+            <dd>
+              <input type="password" value="" />
+            </dd>
+          </dl>
+
+          <div class="item_button">
+              <button type="submit" id="item_view_button_cart" class="table_button_layout cart_btn-tag items_table_button"><i class="fas fa-shopping-cart"></i>確認　confirm</button>
+              <a href="./">
+                <button type="button" class="items_table_button">Return</button>
+              </a>
+            </div>
+
+
+          </form>
       </section>
     </div>
 
-    <div class="item_button">
-      <form action="cart_view.html" >
-        <input type="hidden" name="itemId" value="ItemNameA" />
-        <button type="submit" id="item_view_button_cart" class="table_button_layout cart_btn-tag items_table_button"><i class="fas fa-shopping-cart"></i>Add to cart</button>
-        <a href="./">
-          <button type="button" class="items_table_button">Return</button>
-        </a>
-      </form>
-    </div>
     <footer>
       <p>
         © All rights reserved by Example EC Site
@@ -108,3 +126,26 @@
 
   </body>
 </html>
+
+
+<!-- 名前（名）
+スマイと出身
+くれど受講期間
+転職などの情報
+
+
+さおり
+じゅんや
+
+ひろき　さん
+
+ひであき　さん -->
+
+<!-- 錦？のさくらんぼ　２キロ
+ボイルかに　１キロ
+飯塚の鉄板焼きハンバーグ２０個入り -->
+
+
+
+
+<!-- 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 -->

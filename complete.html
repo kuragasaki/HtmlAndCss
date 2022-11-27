@@ -9,7 +9,7 @@
     <link href="./css/reset.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
     <link href="./css/header_style.css" rel="stylesheet">
-    <link href="./css/item_style.css" rel="stylesheet">
+    <link href="./css/complete_style.css" rel="stylesheet">
     <link href="./css/footer_style.css" rel="stylesheet">
   </head>
 
@@ -27,12 +27,8 @@
           <form action="./" >
             <input id="word_input" name="keyword" type="text" maxsize="200" placeholder="search word" />
             <button id="sbtn2" type="submit"><i class="fas fa-search"></i></button>
-            <a href="login.html">
-              <button class="header_button" type="submit">LOG - IN</button>
-            </a>
-            <a href="sign_up.html">
-              <button class="header_button" type="submit">SIGN - UP</button>
-            </a>
+            <button class="header_button" type="submit">LOG - IN</button>
+            <button class="header_button" type="submit">SIGN - UP</button>
             <a href="cart_view.html" class="cart_btn-tag"><i class="fas fa-shopping-cart"></i>See in Cart</a>
           </form>
         </div>
@@ -60,51 +56,17 @@
       </nav>
     </header>
 
-    <div class="item_view_body">
-      <section>
-        <h2>
-          Item Name A
-        </h2>
-        <span class="img_position">
-          <img src=""  class="big_img" />
-        </span>
-        <dl>
-          <dt>
-          Category Type
-          </dt>
-          <dd>
-          Category 1-1-1
-          </dd>
-          <dt>
-          price
-          </dt>
-          <dd>
-          buy sell $100
-          </dd>
-          <dt>
-          Release date
-          </dt>
-          <dd>
-          2022/01/01
-          </dd>
-        </dl>
-      </section>
-    </div>
-
-    <div class="item_button">
-      <form action="cart_view.html" >
-        <input type="hidden" name="itemId" value="ItemNameA" />
-        <button type="submit" id="item_view_button_cart" class="table_button_layout cart_btn-tag items_table_button"><i class="fas fa-shopping-cart"></i>Add to cart</button>
-        <a href="./">
-          <button type="button" class="items_table_button">Return</button>
-        </a>
-      </form>
-    </div>
-    <footer>
-      <p>
-        © All rights reserved by Example EC Site
+    <div id="complete">
+      <p id="over_p">
+        Thank you
       </p>
-    </footer>
+      <p id="under_p">
+        Very match.
+      </p>
+    </div>
 
+    <footer>
+      <h3>Example EC Site Company</h3>
+    </footer>
   </body>
 </html>

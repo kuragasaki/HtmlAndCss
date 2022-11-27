@@ -1,18 +1,24 @@
 ﻿@charset "utf-8";
 
 header {
-
-/* .site-header { */
 	height: 150px;
-	width: 1000px;
-	/* position: fixed; */
-	position: sticky;/*固定する*/
-    position: -webkit-sticky;/*Safari用ベンダープレフィックス*/
-    top: 0;/*ブラウザの上からの距離はゼロ*/
+	width: 100%;
+	position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+#title_position {
+	margin: 2% 15% 0px;
 }
 
 .header_upper {
 	font-size: 48px;
+}
+
+.header_upper a {
+	text-decoration: none;
+	color : inherit;
 }
 
 h1 {
@@ -33,7 +39,7 @@ h1 span {
 }
 
 .h1_buttom {
-	margin-right: 200px;
+	margin-right: 150px;
 }
 
 .h1_common {
@@ -135,15 +141,16 @@ h1 span {
 
 
 nav {
-	height: 50px;
-	background-color: #00ff00;
+	height: 31px;
+	width: 100%;
+	background-color: #999;
+}
+
+#nav_position {
+	margin: 0 15%;
 }
 
 .main_manu {
-	/* list-style-type: none; */
-	/* padding-left: 0; */
-	/* list-style: none; */
-	/* overflow: hidden; */
 	text-align: center;
 	margin-left: 13%;
 	margin-right: auto;
@@ -152,13 +159,11 @@ nav {
 .main_manu li {
 	width: 150px;
 	text-align: center;
-	background-color: #0000ff;
+	background-color: #333;
 	float: left;
-	/* height: 50px; */
-	line-height: 50px;
-	border: 1px solid #fff ;
-	/* margin-right: 10px; */
+	line-height: 30px;
+	border: 0.5px solid #fff ;
 	font-size: 14px;
-	/* display: inline; */
 	display: inline-block;
+	color: #fff;
 }
