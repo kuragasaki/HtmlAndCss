@@ -9,7 +9,7 @@
     <link href="./css/reset.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
     <link href="./css/header_style.css" rel="stylesheet">
-    <link href="./css/sing_up_style.css" rel="stylesheet">
+    <link href="./css/delivery_address_style.css" rel="stylesheet">
     <link href="./css/footer_style.css" rel="stylesheet">
   </head>
 
@@ -63,7 +63,7 @@
     <div id="user_infos">
       <section>
         <h2>
-           Registration
+          Delivery
         </h2>
         <form>
           <dl>
@@ -71,38 +71,51 @@
               First Name
             </dt>
             <dd>
-              <input type="text" name="firstName" value="" />
+              <input type="text" name="firstName" />
             </dd>
             <dt>
               Last Name
             </dt>
             <dd>
-              <input type="text" name="lastName" value="" />
+              <input type="text" name="lastName" />
             </dd>
             <dt>
               Mail Address
             </dt>
             <dd>
-              <input type="mail" name="mailAddress" value="" />
+              <input type="mail" name="mailAddress" />
             </dd>
             <dt>
-               Gender
+              Telephone
             </dt>
             <dd>
-              <input type="radio" class="radio_input" name="gender" value="male" />male
-              <input type="radio" class="radio_input" name="gender" value="female" />female
+              <input type="telephone" name="telephone" />
             </dd>
             <dt>
-              Password
+              Post Code
             </dt>
             <dd>
-              <input type="password" name="password" id="password" required />
+              〒<input type="text" class="p-postal-code" name="postCodeFront" size="3" maxlength="3">
+              -
+              <input type="text" class="p-postal-code" name="postCodeBack" size="4" maxlength="4">
             </dd>
             <dt>
-              Password Confirm
+              State / province
             </dt>
             <dd>
-              <input type="password" name="passwordConfirm" id="passwordConfirm" required />
+              <input type="text" name="state" />
+            </dd>
+            <dt>
+              City / locality
+            </dt>
+            <dd>
+              <input type="text" name="city" />
+            </dd>
+            <dt>
+              Address Line
+            </dt>
+            <dd>
+              <input type="text" name="addressLine" />
             </dd>
           </dl>
 

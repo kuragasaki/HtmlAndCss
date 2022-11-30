@@ -9,7 +9,7 @@
     <link href="./css/reset.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
     <link href="./css/header_style.css" rel="stylesheet">
-    <link href="./css/sing_up_style.css" rel="stylesheet">
+    <link href="./css/confirm_style.css" rel="stylesheet">
     <link href="./css/footer_style.css" rel="stylesheet">
   </head>
 
@@ -63,51 +63,71 @@
     <div id="user_infos">
       <section>
         <h2>
-           Registration
+          Confirm
         </h2>
-        <form>
+        <form action="./complete.html" method="post">
           <dl>
             <dt>
               First Name
             </dt>
             <dd>
-              <input type="text" name="firstName" value="" />
+              firstName
+              <input type="hidden" name="firstName" value="firstName"/>
             </dd>
             <dt>
               Last Name
             </dt>
             <dd>
-              <input type="text" name="lastName" value="" />
+              lastName
+              <input type="hidden" name="lastName" value="lastName"/>
             </dd>
             <dt>
               Mail Address
             </dt>
             <dd>
-              <input type="mail" name="mailAddress" value="" />
+              mailAddress
+              <input type="hidden" name="mailAddress" value="mailAddress" />
             </dd>
             <dt>
-               Gender
+              Telephone
             </dt>
             <dd>
-              <input type="radio" class="radio_input" name="gender" value="male" />male
-              <input type="radio" class="radio_input" name="gender" value="female" />female
+              telephone
+              <input type="hidden" name="telephone" value="telephone" />
             </dd>
             <dt>
-              Password
+               Post Code
             </dt>
             <dd>
-              <input type="password" name="password" id="password" required />
+              〒 000 - 0000
+              <input type="hidden" class="p-postal-code" name="postCodeFront" value="000">
+              <input type="hidden" class="p-postal-code" name="postCodeBack" value="0000">
             </dd>
             <dt>
-              Password Confirm
+              State / province
             </dt>
             <dd>
-              <input type="password" name="passwordConfirm" id="passwordConfirm" required />
+              state
+              <input type="hidden" name="state" value="state" />
+            </dd>
+            <dt>
+              City / locality
+            </dt>
+            <dd>
+              city
+              <input type="hidden" name="city" value="city" />
+            </dd>
+            <dt>
+              Address Line
+            </dt>
+            <dd>
+              address line
+              <input type="hidden" name="addressLine" value="address line" />
             </dd>
           </dl>
 
           <div class="item_button">
-            <button type="submit" id="item_view_button_cart" class="table_button_layout items_table_button">Confirm</button>
+            <button type="submit" id="item_view_button_cart" class="table_button_layout items_table_button">Send</button>
             <a href="./">
               <button type="button" class="items_table_button">Return</button>
             </a>

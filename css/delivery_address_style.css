@@ -11,7 +11,7 @@
 
 section {
 	text-align: center;
-	height: 300px;
+	height: 350px;
 }
 
 dl {
@@ -35,16 +35,14 @@ dd input {
 	width: 100%;
 }
 
-.radio_input {
-	width: 10%;
+.p-postal-code {
+	width: 33%;
 	margin: 0 3%;
 }
 
 .item_button {
 	padding-top: 3%;
 	clear: both;
-	/* text-align: center;
-	vertical-align: middle; */
 }
 
 .items_table_button {

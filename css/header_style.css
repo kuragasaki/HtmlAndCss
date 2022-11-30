@@ -77,6 +77,10 @@ h1 span {
 	color:#7fbfff;
 }
 
+.header_a_style {
+	margin: 0 3px;
+}
+
 .header_button {
 	width: 100px;
 	height: 30px;
