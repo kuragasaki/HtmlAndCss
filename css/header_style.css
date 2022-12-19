@@ -39,7 +39,8 @@ h1 span {
 }
 
 .h1_buttom {
-	margin-right: 150px;
+	margin-right: 350px;
+	/* margin-right: 150px; */
 }
 
 .h1_common {
@@ -77,7 +78,7 @@ h1 span {
 	color:#7fbfff;
 }
 
-.header_a_style {
+/* .header_a_style {
 	margin: 0 3px;
 }
 
@@ -93,7 +94,7 @@ h1 span {
 .header_button:hover {
 	color: #fff;
 	background: #ffa50e;
-}
+} */
 
 .cart_btn-tag {
     line-height: 1.5;
@@ -113,6 +114,7 @@ h1 span {
     padding: 0.2rem 1rem 0.2rem 50px;
     color: #fff;
     background: #f39800;
+	margin: 0 3px;
 }
 
 
