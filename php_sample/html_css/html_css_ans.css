@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+html {
+    height: 100%;
+  }
+  
+body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    background-color: #3E2D21;
+}
+  
+#upper {
+	width: 100%;
+    height: 30%;
+}
+
+#left_upper {
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: #573F2E;
+}
+
+#right_upper {
+    float: right;
+    width: 70%;
+    height: 100%;
+}
+
+#under {
+	width: 100%;
+    height: 70%;
+}
+
+#left_under {
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: #FAEDED;
+}
+
+#right_under {
+    float: right;
+    width: 70%;
+    height: 70%;
+    background-color: #6A4021;
+}
